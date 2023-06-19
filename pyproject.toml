@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "things3"
+version = "0.1.0"
+description = "scripts for managing things3"
+authors = ["Olivia Brundage <hello@oliikit.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"things.py" = "^0.0.15"
+textual = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
